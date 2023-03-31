@@ -24,7 +24,7 @@ const SingleBlog = ({ blog, handlerReadTime, handlerBookmarks, blogTitles }) => 
           <div className='author d-flex justify-content-between align-items-center'>
             <div className="d-flex justify-content-start align-items-center gap-3 mt-3">
               <div className="author-picture">
-                < img src={author_image} className="card-img-top rounded-circle img-fluid" alt='asif'
+                < img src={author_image} className="card-img-top rounded-circle img-fluid" alt='user'
                   style={{ height: "50px", width: "50px" }} />
               </div>
               <div className="author-info d-flex flex-column">
